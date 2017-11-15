@@ -1,0 +1,107 @@
+html, body, header, nav, h1, h2, h3, h4, a, ul, li, button, i, section, img,
+div, form, input, textarea, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    vertical-align: inherit;
+    box-sizing: border-box;
+    background: transparent;
+    list-style: none;
+    line-height: 1;
+}
+
+body {
+    background: #ededed;
+}
+
+.flexed{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-bar{
+    padding: 33px;
+    color: wheat;
+    background: #878a8a;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.tab:hover{
+    color: #e9b148;
+    cursor: pointer;
+}
+
+li > a{
+   padding: 9px 14px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+div#information {
+    text-align: -webkit-center;
+    padding: 3%;
+    font-size: 35px;
+    letter-spacing: 7px;
+    font-family: fantasy;
+    font-weight: 800;
+    margin-bottom: 29px;
+    color: #633a3a;
+}
+
+table#board {
+    margin: auto;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: #4f671d;
+}
+
+.v{
+    border-left:7px solid #515252;
+    border-right:7px solid #515252;
+}
+
+.h{
+    border-top:7px solid #515252;
+    border-bottom:7px solid #515252;
+}
+
+.btn-div {
+    text-align: -webkit-center;
+    padding: 4%;
+}
+
+#btn {
+    border: 1px solid black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;  
+    padding: 10px;
+    background: #515252;
+    color: wheat;
+}
+
+#btn:hover {
+    color: #e9b148;
+    cursor: pointer;
+}

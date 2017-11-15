@@ -1,0 +1,70 @@
+html, body, header, nav, h1, h2, h3, h4, a, ul, li, button, i, section, img,
+div, form, input, textarea, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: border-box;
+  background: transparent;
+  list-style: none;
+  line-height: 1;
+}
+
+body {
+  background: #ededed;
+}
+
+.flexed{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-bar{
+  padding: 33px;
+  color: wheat;
+  background: #878a8a;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  font-size: larger;
+  letter-spacing: 2px;
+}
+
+.tab:hover{
+  color: #e9b148;
+  cursor: pointer;
+}
+
+li > a{
+  padding: 9px 14px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.item{
+  width: 528px;
+  margin: auto;
+  background: black;
+  margin-top: 30px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;  
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.container img {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px; 
+  width: 100%;
+}
+

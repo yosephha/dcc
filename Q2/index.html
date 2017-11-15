@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <ul class="nav-bar flexed">
+
+            <ul class="flexed">
+                <li class="tabs1 tab">
+                    <a href="https://www.linkedin.com/in/yoseph-habtewold" target="_blank">
+          Linkedin</a>
+                </li>
+
+                <li class="tabs2 tab">
+                    <a href="https://github.com/yosephha" target="_blank">Github</a>
+                </li>
+
+                <li class="tabs3 tab">
+                    <a href="https://yoseph.me" target="_blank">Website</a>
+                </li>
+            </ul>
+            <li id="name"><a>Yoseph Habtewold</a></li>
+        </ul>
+
+        <div class="container">
+
+            <div id="information"></div>
+            <table id="board" >
+                <tr>
+                    <td id="b1" class="box"></td>
+                    <td id="b2" class="box v"></td>
+                    <td id="b3" class="box"></td>
+                </tr>
+                <tr>
+                    <td id="b4" class="box h"></td>
+                    <td id="b5" class="box v h"></td>
+                    <td id="b6" class="box h"></td>
+                </tr>
+                <tr>
+                    <td id="b7" class="box"></td>
+                    <td id="b8" class="box v"></td>
+                    <td id="b9" class="box"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="btn-div">
+            <button id="btn" type="button">Restart Game</button>
+        </div>
+    
+        <script src="./player.js"></script>
+        <script src="./board.js"></script>
+        <script src="./game.js"></script>
+        <script src="./tic-tac-toe.js"></script> 
+    </body>
+</html>
